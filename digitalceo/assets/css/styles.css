@@ -41,7 +41,7 @@
 
   /*========== Font weight ==========*/
   --font-regular: 400;
-  --font-medium: 600;
+  --font-medium: 500;
   --font-semi-bold: 600;
 
   /*========== z index ==========*/
@@ -375,6 +375,7 @@ svg {
 
 .skills__description{
   margin-bottom: 2rem;
+  text-wrap: var(--small-font-size);
 }
 
 .skills__content,
@@ -384,9 +385,9 @@ svg {
 
 .skills__content{
   grid-template-columns: repeat(2, max-content);
-  column-gap: 4rem;
+  column-gap: 3rem;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
 }
 
 .skills__group{
